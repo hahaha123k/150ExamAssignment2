@@ -1,0 +1,78 @@
+body{margin:0;}
+.flex{
+    display:flex;
+}
+.flexc{
+    display:flex;
+    flex-direction: column;
+}
+.flexy {flex:1;}
+.fullw{
+    text-align:center;
+}
+.toolbar{
+    background:#112;
+}
+.tool{
+    width:50px;
+    height:50px;
+    line-height:50px;
+    color:#fff;
+    font-size:25px;
+    background:rgba(255,255,255, .1);
+    text-align:center;
+    margin:1px;    
+    cursor:pointer;
+}
+#addTicketBox{
+    position:fixed;
+    display:flex;
+    flex-direction:row;
+    top:50vh;
+    left:50vw;
+    transform:translateX(-50%) translateY(-50%);
+    display:none;
+}
+.input-field{
+    padding:10px;
+    background:#422;
+}
+input {
+    text-align:center;
+    width:300px;
+
+}
+.color-input{
+    background:#224;
+    padding:10px;
+}
+.cc{
+    width:100px;
+    height:50px;
+    border:2px solid #555;
+    margin:5px;
+}
+.template{
+    display:inline-block;
+    width:180px;
+    border:1px solid #000;
+    margin:25px;
+}
+.template  .color{
+    height:12px;
+}
+.template .title{
+    background:#ffa;
+    font-weight: 600;
+}
+.template .content {
+    min-height:80px;
+    max-height:80px;
+    overflow:auto;
+}
+.hovered{
+    background:rgba(255,255,255, .3)
+}
+.color-hovered{
+    border:2px solid #fff;
+}
